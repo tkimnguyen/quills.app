@@ -1,11 +1,12 @@
 Changelog
 =========
 
-1.8a2 (unreleased)
-------------------
+1.8 (2015-12-17)
+----------------
 
 - Plone 4.3 compatibility
   [ale-rt]
+
 - Handle case when attribute parentsInThread does not exist on comment
   [tkimnguyen]
 
@@ -14,6 +15,7 @@ Changelog
 ------------------
 
 - Compatibility with Plone 4 [sargo] (r100977_, r100979_)
+
 - Fixed problem where blog's topics view acquired an object with the tag name 
   from higher up instead of showing blogs with that tag. [jcbrand] (r232360_)
 

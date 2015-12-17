@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.8a2dev'
+version = '1.8'
 
 setup(name='quills.app',
       version=version,
@@ -18,9 +18,9 @@ setup(name='quills.app',
         ],
       keywords='plone blogging',
       author='Quills Team',
-      author_email='plone-quills@googlegroups.com',
-      url='http://plone.org/products/quills',
-      download_url="http://svn.plone.org/svn/collective/quills.app",
+      author_email='',
+      url='https://github.com/collective/quills.app',
+      download_url="https://github.com/collective/quills.app",
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['quills'],
